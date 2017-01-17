@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>IMS_SVN</display-name>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <description></description>
+    <display-name>ClaimController</display-name>
+    <servlet-name>ClaimController</servlet-name>
+    <servlet-class>com.ilp.ims.Controller.ClaimController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClaimController</servlet-name>
+    <url-pattern>/ClaimController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LogInController</display-name>
+    <servlet-name>LogInController</servlet-name>
+    <servlet-class>com.ilp.ims.Controller.LogInController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogInController</servlet-name>
+    <url-pattern>/LogInController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CustomerController</display-name>
+    <servlet-name>CustomerController</servlet-name>
+    <servlet-class>com.ilp.ims.Controller.CustomerController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerController</servlet-name>
+    <url-pattern>/CustomerController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>InsuranceController</display-name>
+    <servlet-name>InsuranceController</servlet-name>
+    <servlet-class>com.ilp.ims.Controller.InsuranceController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsuranceController</servlet-name>
+    <url-pattern>/InsuranceController</url-pattern>
+  </servlet-mapping>
+</web-app>
